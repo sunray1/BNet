@@ -3,7 +3,7 @@
 import sys, os
 import pandas as pd
 
-files = ["Extractions_9.21.csv", "Seq_9.21.csv", "Tissues_cleaned_headers.csv"]
+files = ["Extracts_10.9.csv", "Sequenced_10.9.csv", "Tissues_10.9.csv", "ButterflyNet2.csv"]
 for csv in files:
     df = pd.read_csv(csv, encoding='ISO-8859-1')
     df.to_json(csv+".json", orient = "records")

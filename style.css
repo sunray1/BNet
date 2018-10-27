@@ -1,3 +1,26 @@
-p.root {
-  color: blue;
+.control {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+select {
+  height: 205px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+button {
+  margin: 10px 20px;
+  display:block;
+
+}
+
+a {
+  margin: 10px 20px;
+  display:block;
+
 }
